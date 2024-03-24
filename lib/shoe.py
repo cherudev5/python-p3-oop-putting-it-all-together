@@ -3,7 +3,7 @@ class Shoe:
     def __init__(self, brand, size):
         self.brand = brand
         self._size = size
-        self._condition = "Used"
+        self.condition = "Used"
 
     @property
     def size(self):
@@ -18,4 +18,4 @@ class Shoe:
 
     def cobble(self):
         print("Your shoe is as good as new!")
-        self._condition = "New"
+        self.condition = "New"
